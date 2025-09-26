@@ -1,6 +1,6 @@
 {
   "id": "samurais-configs",
-  "url": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/tree/v1",
+  "url": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs",
   "title": "Samurais Configs",
   "description": "A curated collection of items, macros, playlists, and configuration presets for D&D5e in Foundry VTT.",
   "authors": [
@@ -123,5 +123,7 @@
   "protected": false,
   "coreTranslation": false,
   "library": false,
+  "manifest": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/releases/latest/download/module.json",
+  "download": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/releases/download/v1.0.0/module.zip",
   "socket": false
 }
