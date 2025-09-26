@@ -381,6 +381,6 @@
     ]
   },
   "manifest": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/releases/latest/download/module.json",
-  "download": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/releases/latest/download/v1.zip",
+  "download": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/archive/refs/tags/v1.zip",
   "flags": {}
 }
