@@ -124,6 +124,6 @@
   "coreTranslation": false,
   "library": false,
   "manifest": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/releases/latest/download/module.json",
-  "download": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/releases/download/v1.0.0/module.zip",
+  "download": "https://github.com/Davi-Esteves-dos-Santos/samurai-configs/archive/refs/tags/v1.zip",
   "socket": false
 }
