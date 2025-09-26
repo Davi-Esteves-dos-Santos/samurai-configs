@@ -58,8 +58,6 @@
     ],
     "requires": [
       { "id": "ActiveAuras", "type": "module", "compatibility": {} },
-      { "id": "actor-link-indicator", "type": "module", "compatibility": {} },
-      { "id": "actually-private-rolls", "type": "module", "compatibility": {} },
       { "id": "ATL", "type": "module", "compatibility": {} },
       { "id": "auraeffects", "type": "module", "compatibility": {} },
       { "id": "autoanimations", "type": "module", "compatibility": {} },
