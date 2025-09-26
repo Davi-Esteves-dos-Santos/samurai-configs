@@ -1,0 +1,370 @@
+{
+  "id": "samurais-configs",
+  "title": "Samurai's Configs",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "Items",
+      "label": "Items",
+      "path": "packs/Items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Macros",
+      "label": "Macros",
+      "path": "packs/Macros",
+      "type": "Macro",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "Playlists",
+      "label": "Playlists",
+      "path": "packs/Playlists",
+      "type": "Playlist",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "ActiveAuras",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "actor-link-indicator",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "actually-private-rolls",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "auraeffects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "autoanimations",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "automated-conditions-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "chris-premades",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "combat-music-master",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "combat-tracker-dock",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "combatbooster",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-calculator",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "diceaddiction",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "enhancedcombathud",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "enhancedcombathud-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fa-battlemaps",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "forien-copy-environment",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gambits-premades",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gm-notes",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "gm-vision",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "healthEstimate",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "illandril-token-hud-scale",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "illandril-token-tooltips",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "inlinewebviewer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-dfreds-ui-extender",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "michaelghelfi",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "module-profiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-little-details",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-tokenbar",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "multi-token-edit",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "music-d20-sampler",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "plutonium",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "plutonium-addon-automation",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "quick-insert",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "region-attacher",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "Rideable",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "routinglib",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "sequencer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "simbuls-athenaeum",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "simbuls-cover-calculator",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "smalltime",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "soundfxlibrary",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tagger",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "theripper-premium-hub",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tidy5e-sheet",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "token-aura-ring",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "torch",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "visual-active-effects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vtta-tokenizer",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "zoom-pan-options",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Samurai",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}
